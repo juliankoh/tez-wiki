@@ -1,9 +1,3 @@
----
-layout: post
-title:  "Proof of Stake"
-date:   2019-01-02 18:01:46
-categories: jekyll update
----
 # Proof of Stake
 
 ## What is Proof-of-Stake?

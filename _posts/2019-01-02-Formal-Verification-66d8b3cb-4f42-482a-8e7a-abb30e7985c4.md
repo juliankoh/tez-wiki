@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Formal Verification"
-date:   2019-01-02 18:07:24
-categories: jekyll update
+date:   2019-01-02 18:10:01
 ---
 # Formal Verification
 

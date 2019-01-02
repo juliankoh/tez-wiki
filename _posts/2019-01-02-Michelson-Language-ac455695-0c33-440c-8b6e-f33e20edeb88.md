@@ -1,19 +1,21 @@
 ---
 layout: post
-title:  "Baking"
-date:   2019-01-02 12:08:03 -0500
-categories: jekyll update
+title:  "Michelson Language"
+date:   2019-01-02 18:10:01
 ---
-
 # Michelson Language
 
 # Introduction
+
+---
 
 Michelson is the low level, stack-based programming language used to write smart contracts on the Tezos blockchain. Michelson was designed to facilitate formal verification, allowing users to prove the properties of their contracts.
 
 It uses a stack rewriting paradigm, whereby each function will rewrite an input stack into an output stack (will explain what this means in a while). This runs in a purely functional way and does not modify the inputs at all. Thus, all data structures are **immutable**.
 
 # What is a Stack?
+
+---
 
 A stack is an abstract data type that serves as a collection of elements, with two principal operations: push (adds an element to the collection) and pop (removes the most recently added element that was not yet removed). The order in which elements come off a stack gives rise to its alternative name, LIFO (last in, first out). Additionally, a peek operation may give access to the top without modifying the stack.
 
@@ -22,6 +24,8 @@ A stack is an abstract data type that serves as a collection of elements, with t
 Source: Wikipedia.
 
 # Rewriting Stacks
+
+---
 
 To see what rewriting stacks mean, we have to run through a transaction in Michelson. First, before a transaction runs, the blockchain state at a certain hash is deserialized and put onto the stack as the variable `storage`. We have a `from` function that receives the transaction data `amount` , the amount of attached ꜩ, and the `parameter` , the function's parameters.
 
@@ -34,6 +38,8 @@ After running the function, without any updates to the stack, the program will c
 In the example, Michelson only manipulates the stack functionally and a new stack is passed from function to function. 
 
 # Why Michelson?
+
+---
 
 At first sight, Michelson is a strange language. It doesn’t include many features like polymorphism, closures, or named functions. Compared to a language like Haskell or OCaml, it seems underpowered; its stack is not always easy to deal with; there is no standard library. However, these restrictions are largely motivated by the language’s design goals.
 

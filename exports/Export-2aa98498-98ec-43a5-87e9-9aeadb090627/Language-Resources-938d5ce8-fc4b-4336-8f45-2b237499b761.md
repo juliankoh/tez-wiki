@@ -1,9 +1,3 @@
----
-layout: post
-title:  "Language Resources"
-date:   2019-01-02 18:01:46
-categories: jekyll update
----
 # Language Resources
 
 # Michelson:

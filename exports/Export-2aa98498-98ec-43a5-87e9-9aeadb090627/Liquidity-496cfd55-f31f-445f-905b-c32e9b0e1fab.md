@@ -1,9 +1,3 @@
----
-layout: post
-title:  "Liquidity"
-date:   2019-01-02 18:01:46
-categories: jekyll update
----
 # Liquidity
 
 Liquidity is a high-level language to program Smart Contracts for Tezos. It is a fully typed functional language, it uses the syntax of OCaml, and strictly complies with Michelson security restrictions.

@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Smart Contract Language"
+date:   2019-01-02 18:10:01
+---
 # Smart Contract Language
 
 [Michelson Language](./Michelson-Language-ac455695-0c33-440c-8b6e-f33e20edeb88.md)
