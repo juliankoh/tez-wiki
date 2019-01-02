@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Potential Developments"
-date:   2019-01-02 18:07:24
-categories: jekyll update
----
-# Potential Developments
-
