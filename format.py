@@ -5,7 +5,7 @@ from os.path import isfile, join
 from datetime import datetime, timezone
 
 
-POSTS_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), '_posts')
+POSTS_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'docs')
 
 
 def format_files_in_directory(directory):

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Smart Contract Language"
-date:   2019-01-02 18:10:01
+date:   2019-01-07 12:14:18
 ---
 # Smart Contract Language
 
